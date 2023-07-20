@@ -1,7 +1,8 @@
-<script>
-	import { toggleTheme } from "$lib/utils";
+<script lang="ts">
+	import Section from './Section.svelte';
 </script>
 
-<div class="text-foreground">Welcome to SvelteKit</div>
-<div class="text-foreground">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</div>
-<button class="bg-background border border-border rounded-sm p-2" on:click={()=>toggleTheme()}>Light</button>
+<Section title="Posts" subTitle="Notes on things you can do on your computer.">askdfjasdf</Section>
+<Section title="Projects" subTitle="Notes on things you can do on your computer.">
+	askdfjasdf
+</Section>
