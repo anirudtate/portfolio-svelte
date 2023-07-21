@@ -3,8 +3,8 @@
 	export let subTitle: string;
 </script>
 
-<div class="flex flex-col gap-2 border-b pb-7 mb-5">
+<div class="flex flex-col gap-1.5 pt-5 pb-7">
 	<div class="text-lg font-bold">{title}</div>
-	<div class="text-muted-foreground">{subTitle}</div>
+	<div class="text-muted-foreground mb-2">{subTitle}</div>
 	<slot />
 </div>
