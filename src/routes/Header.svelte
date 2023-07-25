@@ -3,10 +3,10 @@
 	import { toggleTheme } from '$lib/utils';
 </script>
 
-<div class="flex justify-between items-center pb-3 border-b">
+<div class="flex justify-between items-center pb-3 border-b pt-5">
 	<div>
 		<div class="font-bold text-lg">anirudtate</div>
-		<div>I own a computer</div>
+		<div>A full stack developer who owns a computer</div>
 	</div>
 	<div class="flex gap-2">
 		<button
