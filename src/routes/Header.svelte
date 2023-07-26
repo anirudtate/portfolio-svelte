@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Moon } from 'lucide-svelte';
+	import { MoonStar, SunMedium } from 'lucide-svelte';
 	import { toggleTheme } from '$lib/utils';
 </script>
 
@@ -23,7 +23,8 @@
 			class="text-foreground hover:bg-secondary p-1.5 rounded-sm h-7 w-7 flex items-center justify-center"
 			on:click={() => toggleTheme()}
 		>
-			<Moon />
+			<MoonStar class="dark:block hidden" />
+			<SunMedium class="dark:hidden block" />
 		</button>
 	</div>
 </div>

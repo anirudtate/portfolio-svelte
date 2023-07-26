@@ -1,4 +1,3 @@
-/* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -78,5 +77,13 @@
 	body {
 		@apply bg-background text-foreground;
 		font-feature-settings: 'rlig' 1, 'calt' 1;
+		background-image: url('./lib/assets/images/background-light.png');
+		background-size: 70rem;
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+	}
+
+	.dark body {
+		background-image: url('./lib/assets/images/background-dark.png');
 	}
 }
