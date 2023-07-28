@@ -2,9 +2,8 @@
 	import { ArrowRight } from 'lucide-svelte';
 	import Section from '$lib/components/Section.svelte';
 	import SubSection from './SubSection.svelte';
-	import type { post } from '$lib/components/Posts.svelte';
 	import Posts from '$lib/components/Posts.svelte';
-	import { linksConfig } from '$config/linksConfig';
+	import { linksConfig } from '$lib/config/linksConfig';
 	export let data;
 </script>
 
@@ -23,7 +22,7 @@
 <div class="border-b" />
 
 <Section title="Projects" subTitle="Things I created with my computer.">
-	<div class="flex flex-col gap-4">
+	<div class="grid grid-cols-3 gap-4">
 		<SubSection
 			title="shadcn/ui"
 			subTitle="Beautifully designed components that you can copy and paste into your apps."
@@ -35,7 +34,8 @@
 		<SubSection
 			href="https://google.com"
 			title="shadcn/ui"
-			subTitle="Beautifully designed components that you can copy and paste into your apps."
+			subTitle={`Beautifully
+			 designed components that you can copy and paste into youradf asdjfka adsf asdfkadsjfkadf apps.`}
 		/>
 		<div
 			class="group text-foreground flex items-center gap-1.5 hover:gap-2 cursor-pointer transition-[gap]"

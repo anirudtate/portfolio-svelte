@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { MoonStar, SunMedium } from 'lucide-svelte';
 	import { toggleTheme } from '$lib/utils';
+	import BreadCrums from './BreadCrums.svelte';
 </script>
 
 <div class="flex justify-between items-center pb-3 border-b pt-5">
@@ -28,3 +29,4 @@
 		</button>
 	</div>
 </div>
+<BreadCrums />
