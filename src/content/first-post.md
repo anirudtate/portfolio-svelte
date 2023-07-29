@@ -12,3 +12,7 @@ akdsfjlaksdjf
 > asdkjfk
 > asdkfj
 > askdfj
+
+```js
+console.log('Hello world');
+```
