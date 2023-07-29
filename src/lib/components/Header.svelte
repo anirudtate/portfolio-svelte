@@ -1,14 +1,13 @@
 <script lang="ts">
 	import { MoonStar, SunMedium } from 'lucide-svelte';
 	import { toggleTheme } from '$lib/utils';
-	import BreadCrums from './BreadCrums.svelte';
 </script>
 
 <div class="flex justify-between items-center pb-3 border-b pt-5">
-	<div>
+	<a href="/">
 		<div class="font-bold text-lg">anirudtate</div>
 		<div>A full stack developer who owns a computer</div>
-	</div>
+	</a>
 	<div class="flex gap-2">
 		<button
 			class="text-foreground hover:bg-secondary p-1.5 rounded-sm h-7 w-7 flex items-center justify-center"
@@ -29,4 +28,3 @@
 		</button>
 	</div>
 </div>
-<BreadCrums />
