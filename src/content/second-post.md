@@ -1,8 +1,10 @@
 ---
 title: 'Markdown Tutorial'
-description: 'Markdown tutorial to test this blog site.'
+description: 'A markdown tutorial to test this blog site.'
 date: '22 Apr 2023'
 ---
+
+# {title}
 
 Disclaimer: Please note that this tutorial has been created solely for the purpose of testing various features of Markdown and may not be comprehensive. However, it can still be useful in learning Markdown.
 
@@ -93,10 +95,10 @@ You can add links in Markdown using square brackets [] to enclose the link text,
 You can add images in Markdown using an exclamation mark (!) followed by square brackets [] to enclose the alt text, and round brackets () to enclose the image URL. For example:
 
 ```md
-![Image Alt Text](https://astro.build/assets/press/astro-logo-light.svg)
+![Image Alt Text](https://svelte.dev/favicon.png)
 ```
 
-![Image Alt Text](https://astro.build/assets/press/astro-logo-light.svg)
+![Image Alt Text](https://svelte.dev/favicon.png)
 
 ---
 
