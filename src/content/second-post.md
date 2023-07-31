@@ -18,9 +18,11 @@ Markdown is a lightweight markup language that is used for formatting text. It a
 
 Headings in Markdown are denoted by hash symbols (#) followed by a space, with the number of hash symbols indicating the level of the heading. For example:
 
-```
+```md
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
 ```
 
@@ -36,11 +38,11 @@ Headings in Markdown are denoted by hash symbols (#) followed by a space, with t
 
 You can add emphasis to text in Markdown using asterisks (\*) or underscores (\_) around the text. For example:
 
-```
-*Italic Text*
+```md
+_Italic Text_
 _Italic Text_
 **Bold Text**
-__Bold Text__
+**Bold Text**
 ```
 
 _Italic Text_
@@ -54,14 +56,14 @@ _Italic Text_
 
 You can create ordered (numbered) and unordered (bulleted) lists in Markdown. For ordered lists, use numbers followed by a period, and for unordered lists, use asterisks, plus signs, or hyphens. For example:
 
-```
+```md
 1. Item 1
 2. Item 2
 3. Item 3
 
-* Item 1
-* Item 2
-* Item 3
+- Item 1
+- Item 2
+- Item 3
 ```
 
 1. Item 1
@@ -78,7 +80,7 @@ You can create ordered (numbered) and unordered (bulleted) lists in Markdown. Fo
 
 You can add links in Markdown using square brackets [] to enclose the link text, followed by round brackets () to enclose the URL. For example:
 
-```
+```md
 [Google](https://www.google.com)
 ```
 
@@ -90,7 +92,7 @@ You can add links in Markdown using square brackets [] to enclose the link text,
 
 You can add images in Markdown using an exclamation mark (!) followed by square brackets [] to enclose the alt text, and round brackets () to enclose the image URL. For example:
 
-```
+```md
 ![Image Alt Text](https://astro.build/assets/press/astro-logo-light.svg)
 ```
 
@@ -102,11 +104,13 @@ You can add images in Markdown using an exclamation mark (!) followed by square 
 
 You can create code blocks in Markdown by enclosing the code in triple backticks (```) at the beginning and end of the block. For example:
 
-    ```
-    print("Hello, World!")
-    ```
-
+````md
+```python
+print("Hello, World!")
 ```
+````
+
+```md
 print("Hello, World!")
 ```
 
@@ -116,9 +120,9 @@ print("Hello, World!")
 
 You can create tables in Markdown using pipes (|) to separate columns and hyphens (-) to create the table header. For example:
 
-```
+```md
 | Column 1 | Column 2 |
-|----------|----------|
+| -------- | -------- |
 | Row 1    | Row 1    |
 | Row 2    | Row 2    |
 ```

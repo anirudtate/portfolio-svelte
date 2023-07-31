@@ -3,7 +3,7 @@
 	import { toggleTheme } from '$lib/utils';
 </script>
 
-<div class="flex justify-between items-center pb-3 border-b pt-5">
+<div class="flex justify-between items-center pb-3 border-b pt-3">
 	<a href="/">
 		<div class="font-bold text-lg">anirudtate</div>
 		<div>A full stack developer who owns a computer</div>

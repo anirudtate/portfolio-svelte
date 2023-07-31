@@ -10,6 +10,7 @@
 	import '@fontsource/inter/900.css';
 	import '../app.postcss';
 	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <div
@@ -18,5 +19,6 @@
 	<div class="max-w-[43rem] w-full mx-auto p-6 min-h-screen">
 		<Header />
 		<slot />
+		<Footer />
 	</div>
 </div>
