@@ -1,7 +1,7 @@
 ---
-title: 'Markdown Tutorial'
-description: 'A markdown tutorial to test this blog site.'
-date: '22 Apr 2023'
+title: "Markdown Tutorial"
+description: "A markdown tutorial to test this blog site."
+date: "22 Apr 2023"
 ---
 
 # {title}

@@ -1,5 +1,5 @@
-import { getPosts } from '$lib/utils';
+import { getPosts } from "$lib/utils";
 
 export async function load() {
-	return { posts: await getPosts() };
+  return { posts: await getPosts() };
 }
