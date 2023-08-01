@@ -112,7 +112,7 @@ print("Hello, World!")
 ```
 ````
 
-```md
+```python
 print("Hello, World!")
 ```
 

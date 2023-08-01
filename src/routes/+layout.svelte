@@ -21,7 +21,7 @@
 	class="font-sans min-h-screen w-full text-[0.9rem] antialiased bg-background/30 backdrop-blur-sm transition-all"
 >
 	<div class="max-w-[43rem] w-full mx-auto p-6 min-h-screen">
-		<div class="flex justify-between items-center pb-3 border-b pt-3">
+		<div class="flex justify-between items-center pb-3 border-b pt-3 gap-3">
 			<a href="/">
 				<div class="font-bold text-lg">anirudtate</div>
 				<div>A full stack developer who owns a computer</div>

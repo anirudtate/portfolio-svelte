@@ -1,9 +1,10 @@
 <script lang="ts">
 	import { ArrowRight } from 'lucide-svelte';
 	import Section from '$lib/components/Section.svelte';
-	import SubSection from '../lib/components/SubSection.svelte';
 	import Posts from '$lib/components/Posts.svelte';
 	import { linksConfig } from '$lib/config/linksConfig';
+	import Projects from '$lib/components/Projects.svelte';
+	import { projectsConfig } from '$lib/config/projectsConfig';
 	export let data;
 </script>
 
@@ -23,23 +24,10 @@
 <div class="border-b" />
 
 <Section title="Projects" description="Things I created with my computer.">
-	<div class="grid grid-cols-3 gap-4">
-		<SubSection
-			title="shadcn/ui"
-			description="Beautifully designed components that you can copy and paste into your apps."
-		/>
-		<SubSection
-			title="shadcn/ui"
-			description="Beautifully designed components that you can copy and paste into your apps."
-		/>
-		<SubSection
-			href="https://google.com"
-			title="shadcn/ui"
-			description={`Beautifully
-			 designed components that you can copy and paste into youradf asdjfka adsf asdfkadsjfkadf apps.`}
-		/>
+	<div class="flex flex-col gap-4">
+		<Projects projects={projectsConfig} />
 		<a
-			href="https://github.com/anirudtate"
+			href="https://github.com/anirudtate?tab=repositories"
 			target="_blank"
 			class="group text-foreground flex items-center gap-1.5 hover:gap-2 cursor-pointer transition-[gap]"
 		>

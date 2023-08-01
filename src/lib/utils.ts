@@ -34,8 +34,8 @@ export async function getPosts() {
 }
 
 export const clickOutside = (element: HTMLElement, callbackFunction: () => void) => {
-	function onClick(event: any) {
-		if (!element.contains(event.target)) {
+	function onClick(event: MouseEvent) {
+		if (!element.contains(event.target as Node)) {
 			callbackFunction();
 		}
 	}
