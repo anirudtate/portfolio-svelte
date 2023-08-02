@@ -1,23 +1,10 @@
 <script>
+  import { menuConfig } from "$lib/config/menuConfig";
   import { clickOutside } from "$lib/utils";
   import { Menu } from "lucide-svelte";
   import { fade, slide } from "svelte/transition";
 
   let open = false;
-  const menuOptions = [
-    {
-      name: "Home",
-      href: "/"
-    },
-    {
-      name: "Blogs",
-      href: "/blog"
-    }
-    // {
-    // 	name: 'About',
-    // 	href: '/about'
-    // }
-  ];
 </script>
 
 <div
@@ -39,7 +26,7 @@
         class="absolute border rounded-sm p-1 top-full right-0 bg-background flex flex-col items-start w-24"
         in:slide={{ duration: 150 }}
       >
-        {#each menuOptions as item}
+        {#each menuConfig as item}
           <a
             href={item.href}
             class="w-full rounded-sm hover:bg-secondary px-2 py-0.5"

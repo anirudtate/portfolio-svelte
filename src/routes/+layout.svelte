@@ -39,7 +39,7 @@
     </div>
 
     {#key data.url}
-      <div in:fade={{ duration: 150 }}>
+      <div style="flex-1" in:fade={{ duration: 150 }}>
         <slot />
       </div>
     {/key}
