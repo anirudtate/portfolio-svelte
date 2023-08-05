@@ -5,8 +5,13 @@
   import { linksConfig } from "$lib/config/linksConfig";
   import Projects from "$lib/components/Projects.svelte";
   import { projectsConfig } from "$lib/config/projectsConfig";
+  import { mainConfig } from "$lib/config/mainConfig.js";
   export let data;
 </script>
+
+<svelte:head>
+  <title>{mainConfig.title}</title>
+</svelte:head>
 
 <Section title="Posts" description="Notes on things you can do on your computer.">
   <div class="flex flex-col gap-4">
