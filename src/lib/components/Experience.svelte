@@ -4,7 +4,8 @@
   const experiences = [
     {
       title: "Pentagon Tapes / TagOn",
-      description: "A 3D algorithm visualizer.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eaque consectetur consequuntur architecto.",
       date: "May - Oct 2023",
       href: "https://algovisual3d.vercel.app",
       stack: ["React Js", "Redux", "Semantic UI"]
@@ -16,7 +17,7 @@
   {#each experiences as experience}
     <a
       href={experience.href}
-      class="group flex gap-2 hover:bg-secondary/30 rounded-md py-4 px-4 -mx-4"
+      class="group flex gap-2 hover:bg-secondary/50 rounded-md py-4 px-4 -mx-4"
     >
       <div class="w-32">
         <div class="text-muted-foreground">

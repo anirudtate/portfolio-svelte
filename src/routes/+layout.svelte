@@ -32,7 +32,7 @@
           <!-- <img class="h-10 w-10" src="/favicon.png" alt="profile" /> -->
           <div>
             <div class="font-bold text-lg">anirudtate</div>
-            <div>Fullstack Web Developer</div>
+            <div class="text-muted-foreground">Fullstack Web Developer</div>
           </div>
         </div>
       </a>

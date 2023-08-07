@@ -4,7 +4,8 @@
   const projects = [
     {
       title: "AlgoVisual",
-      description: "A 3D algorithm visualizer.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eaque consectetur consequuntur architecto.",
       date: "2023",
       href: "https://algovisual3d.vercel.app",
       stack: ["Next Js", "Three Js", "React three fiber", "Tailwindcss"]
@@ -12,14 +13,15 @@
     {
       title: "Cf-ladder",
       description:
-        "A Codeforces ladder for someone who want to solve all problems solved by some other user.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eaque consectetur consequuntur architecto.",
       date: "2022",
       href: "https://cf-ladder.vercel.app",
       stack: ["Next Js", "Tailwindcss", "Axios"]
     },
     {
       title: "Portfolio",
-      description: "This site.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eaque consectetur consequuntur architecto.",
       date: "2023",
       href: "/",
       stack: ["Svelte", "Tailwindcss"]
@@ -31,7 +33,7 @@
   {#each projects as project}
     <a
       href={project.href}
-      class="group flex gap-2 hover:bg-secondary/30 rounded-md py-4 px-4 -mx-4"
+      class="group flex gap-2 hover:bg-secondary/50 rounded-md py-4 px-4 -mx-4"
     >
       <div class="w-16">
         <div class="text-muted-foreground">
