@@ -29,7 +29,7 @@
     <div class="flex justify-between items-center pb-3 pt-3 gap-3">
       <a href="/">
         <div class="flex gap-3 items-center">
-          <img class="h-10 w-10" src="/favicon.png" alt="profile" />
+          <!-- <img class="h-10 w-10" src="/favicon.png" alt="profile" /> -->
           <div>
             <div class="font-bold text-lg">anirudtate</div>
             <div>Fullstack Web Developer</div>

@@ -49,7 +49,9 @@
           <div class="text-muted-foreground">{project.description}</div>
           <div class="flex gap-2 flex-wrap">
             {#each project.stack as s}
-              <div class="text-sm bg-secondary rounded-3xl px-2 py-1 leading-3">{s}</div>
+              <div class="text-sm bg-muted text-muted-foreground rounded-3xl px-2 py-1 leading-3">
+                {s}
+              </div>
             {/each}
           </div>
         </div>
