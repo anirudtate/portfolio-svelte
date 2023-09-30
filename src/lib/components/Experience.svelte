@@ -1,13 +1,10 @@
 <script lang="ts">
-  import { ArrowUpRight } from "lucide-svelte";
-
   const experiences = [
     {
       title: "Pentagon Tapes / TagOn",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eaque consectetur consequuntur architecto.",
       date: "May - Oct 2023",
-      href: "https://algovisual3d.vercel.app",
       stack: ["React Js", "Redux", "Semantic UI"]
     }
   ];
@@ -15,10 +12,7 @@
 
 <div class="flex flex-col gap-2">
   {#each experiences as experience}
-    <a
-      href={experience.href}
-      class="group flex gap-2 hover:bg-secondary/50 rounded-md py-4 px-4 -mx-4"
-    >
+    <div class="flex gap-2 rounded-md py-4 px-4 -mx-4">
       <div class="w-32">
         <div class="text-muted-foreground">
           {experience.date}
@@ -26,11 +20,8 @@
       </div>
       <div class="flex-1">
         <div class="flex flex-col gap-2">
-          <div class="font-semibold group-hover:underline underline-offset-4">
+          <div class="font-semibold underline-offset-4">
             {experience.title}
-            {#if experience.href}
-              <ArrowUpRight class="h-4 w-4 inline" />
-            {/if}
           </div>
           <div class="text-muted-foreground">{experience.description}</div>
           <div class="flex gap-2 flex-wrap">
@@ -42,6 +33,6 @@
           </div>
         </div>
       </div>
-    </a>
+    </div>
   {/each}
 </div>
